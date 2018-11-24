@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		88F5AA75219F0EB400CF3A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5AA74219F0EB400CF3A7D /* AppDelegate.swift */; };
 		88F5AA77219F0EB400CF3A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5AA76219F0EB400CF3A7D /* ViewController.swift */; };
-		88F5AA7A219F0EB400CF3A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA78219F0EB400CF3A7D /* Main.storyboard */; };
+		88F5AA7A219F0EB400CF3A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA78219F0EB400CF3A7D /* Main.storyboard */; settings = {ASSET_TAGS = (2, ); }; };
 		88F5AA7C219F0EB600CF3A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA7B219F0EB600CF3A7D /* Assets.xcassets */; };
 		88F5AA7F219F0EB600CF3A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA7D219F0EB600CF3A7D /* LaunchScreen.storyboard */; };
+		88F5AA87219F0F8E00CF3A7D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA86219F0F8E00CF3A7D /* Icon.png */; };
+		88F5AA89219F116700CF3A7D /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA88219F116700CF3A7D /* correct.png */; };
+		88F5AA8B219F11F800CF3A7D /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F5AA8A219F11F800CF3A7D /* incorrect.png */; };
+		88F5AA8D219F14C900CF3A7D /* HotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5AA8C219F14C900CF3A7D /* HotoViewController.swift */; };
+		88F5AA8F219F160A00CF3A7D /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5AA8E219F160A00CF3A7D /* PlayViewController.swift */; };
+		DC656C1A98C7ADAF668BFC63 /* Pods_Brainshake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA15C751852382BFEA49BE78 /* Pods_Brainshake.framework */; };
+		FF6C8634219F4CAE008FC1B7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C8633219F4CAE008FC1B7 /* Question.swift */; };
+		FF6C8636219F4CC3008FC1B7 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C8635219F4CC3008FC1B7 /* QuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63C847B126ADC98C9AD8E32C /* Pods-Brainshake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brainshake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brainshake/Pods-Brainshake.debug.xcconfig"; sourceTree = "<group>"; };
 		88F5AA71219F0EB400CF3A7D /* Brainshake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainshake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F5AA74219F0EB400CF3A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F5AA76219F0EB400CF3A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		88F5AA7B219F0EB600CF3A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F5AA7E219F0EB600CF3A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F5AA80219F0EB600CF3A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F5AA86219F0F8E00CF3A7D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		88F5AA88219F116700CF3A7D /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		88F5AA8A219F11F800CF3A7D /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		88F5AA8C219F14C900CF3A7D /* HotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotoViewController.swift; sourceTree = "<group>"; };
+		88F5AA8E219F160A00CF3A7D /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		93241366E2387A6835164B80 /* Pods-Brainshake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brainshake.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brainshake/Pods-Brainshake.release.xcconfig"; sourceTree = "<group>"; };
+		FA15C751852382BFEA49BE78 /* Pods_Brainshake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brainshake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6C8633219F4CAE008FC1B7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FF6C8635219F4CC3008FC1B7 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC656C1A98C7ADAF668BFC63 /* Pods_Brainshake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208DE4F92E3F998FFE2B4B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA15C751852382BFEA49BE78 /* Pods_Brainshake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88F5AA68219F0EB400CF3A7D = {
 			isa = PBXGroup;
 			children = (
+				FF6C8632219F4C72008FC1B7 /* model */,
 				88F5AA73219F0EB400CF3A7D /* Brainshake */,
 				88F5AA72219F0EB400CF3A7D /* Products */,
+				EBD8E0AD032FC96F2A6E2236 /* Pods */,
+				208DE4F92E3F998FFE2B4B89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +87,34 @@
 				88F5AA74219F0EB400CF3A7D /* AppDelegate.swift */,
 				88F5AA76219F0EB400CF3A7D /* ViewController.swift */,
 				88F5AA78219F0EB400CF3A7D /* Main.storyboard */,
+				88F5AA8E219F160A00CF3A7D /* PlayViewController.swift */,
+				88F5AA8C219F14C900CF3A7D /* HotoViewController.swift */,
 				88F5AA7B219F0EB600CF3A7D /* Assets.xcassets */,
 				88F5AA7D219F0EB600CF3A7D /* LaunchScreen.storyboard */,
 				88F5AA80219F0EB600CF3A7D /* Info.plist */,
+				88F5AA86219F0F8E00CF3A7D /* Icon.png */,
+				88F5AA88219F116700CF3A7D /* correct.png */,
+				88F5AA8A219F11F800CF3A7D /* incorrect.png */,
 			);
 			path = Brainshake;
+			sourceTree = "<group>";
+		};
+		EBD8E0AD032FC96F2A6E2236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C847B126ADC98C9AD8E32C /* Pods-Brainshake.debug.xcconfig */,
+				93241366E2387A6835164B80 /* Pods-Brainshake.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF6C8632219F4C72008FC1B7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FF6C8633219F4CAE008FC1B7 /* Question.swift */,
+				FF6C8635219F4CC3008FC1B7 /* QuestionBank.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F5AA83219F0EB600CF3A7D /* Build configuration list for PBXNativeTarget "Brainshake" */;
 			buildPhases = (
+				891C8474A80C569ED81D238E /* [CP] Check Pods Manifest.lock */,
 				88F5AA6D219F0EB400CF3A7D /* Sources */,
 				88F5AA6E219F0EB400CF3A7D /* Frameworks */,
 				88F5AA6F219F0EB400CF3A7D /* Resources */,
+				D57645440FBC6B06F4B994A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +145,10 @@
 		88F5AA69219F0EB400CF3A7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = pajongpong;
@@ -122,6 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F5AA89219F116700CF3A7D /* correct.png in Resources */,
+				88F5AA8B219F11F800CF3A7D /* incorrect.png in Resources */,
+				88F5AA87219F0F8E00CF3A7D /* Icon.png in Resources */,
 				88F5AA7F219F0EB600CF3A7D /* LaunchScreen.storyboard in Resources */,
 				88F5AA7C219F0EB600CF3A7D /* Assets.xcassets in Resources */,
 				88F5AA7A219F0EB400CF3A7D /* Main.storyboard in Resources */,
@@ -130,13 +192,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		891C8474A80C569ED81D238E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brainshake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57645440FBC6B06F4B994A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brainshake/Pods-Brainshake-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brainshake/Pods-Brainshake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88F5AA6D219F0EB400CF3A7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6C8634219F4CAE008FC1B7 /* Question.swift in Sources */,
+				88F5AA8F219F160A00CF3A7D /* PlayViewController.swift in Sources */,
 				88F5AA77219F0EB400CF3A7D /* ViewController.swift in Sources */,
 				88F5AA75219F0EB400CF3A7D /* AppDelegate.swift in Sources */,
+				88F5AA8D219F14C900CF3A7D /* HotoViewController.swift in Sources */,
+				FF6C8636219F4CC3008FC1B7 /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +393,11 @@
 		};
 		88F5AA84219F0EB600CF3A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C847B126ADC98C9AD8E32C /* Pods-Brainshake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48K8HM9688;
 				INFOPLIST_FILE = Brainshake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +412,11 @@
 		};
 		88F5AA85219F0EB600CF3A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93241366E2387A6835164B80 /* Pods-Brainshake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48K8HM9688;
 				INFOPLIST_FILE = Brainshake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

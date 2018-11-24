@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
